@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="672e0231-7e06-4393-9f18-9b13c1982af1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testy/Gesty_zadanie1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testy/Gesty_zadanie1.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +30,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="408">
+              <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,6 +99,8 @@
         <option value="$PROJECT_DIR$/src/test/java/testy/Listy.java" />
         <option value="$PROJECT_DIR$/src/test/java/testy/Listy_zadanie.java" />
         <option value="$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testy/Gest_zadanie2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java" />
       </list>
     </option>
   </component>
@@ -166,6 +179,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RunDashboard">
@@ -180,7 +197,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Gesty_zadanie1.test4">
+  <component name="RunManager" selected="JUnit.Gesty_zadanie1">
+    <configuration name="Gesty_zadanie1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kurs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testy" />
+      <option name="MAIN_CLASS_NAME" value="testy.Gesty_zadanie1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Gesty_zadanie1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kurs" />
       <extension name="coverage">
@@ -245,28 +277,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Listy_zadanie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kurs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testy" />
-      <option name="MAIN_CLASS_NAME" value="testy.Listy_zadanie" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Gesty_zadanie1" />
         <item itemvalue="JUnit.Gesty_zadanie1.test4" />
         <item itemvalue="JUnit.Gesty_zadanie1.test3" />
         <item itemvalue="JUnit.Gesty_zadanie1.test2" />
         <item itemvalue="JUnit.Gesty_zadanie1.test1" />
-        <item itemvalue="JUnit.Listy_zadanie" />
       </list>
     </recent_temporary>
   </component>
@@ -281,12 +298,17 @@
       <option name="presentableId" value="Default" />
       <updated>1567018156363</updated>
     </task>
+    <task id="LOCAL-00001" summary="[INFO] Added exercises description">
+      <created>1573134838592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573134838592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Gesty_zadanie1_test3 - 2019.11.06 at 21h 35m 54s.xml">
-      <configuration name="Gesty_zadanie1.test3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Gesty_zadanie1_test3 - 2019.11.06 at 21h 36m 20s.xml">
       <configuration name="Gesty_zadanie1.test3" configurationId="JUnit" />
     </history-entry>
@@ -314,10 +336,12 @@
     <history-entry file="Gesty_zadanie1_test4 - 2019.11.06 at 22h 36m 38s.xml">
       <configuration name="Gesty_zadanie1.test4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Gesty_zadanie1 - 2019.11.07 at 15h 25m 37s.xml">
+      <configuration name="Gesty_zadanie1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15989584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -328,7 +352,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32784638" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32698414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23386243" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,7 +360,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32910052" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32819074" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32804233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,6 +380,36 @@
         <option value="1" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[INFO] Added exercises description" />
+    <option name="LAST_COMMIT_MESSAGE" value="[INFO] Added exercises description" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -508,8 +562,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="408">
+          <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -519,9 +583,76 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
