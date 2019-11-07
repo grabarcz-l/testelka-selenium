@@ -13,6 +13,15 @@ import org.testng.Assert;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+/*POLECNIA do ZADAN !!!
+
+Przejdź na stronę https://fakestore.testelka.pl/actions/ i wykonaj następujące testy (do każdego wykonaj asercję).
+
+1. Potwierdź, że w punkcie numer 2, wybór opcji „Koszyk” z menu kontekstowego przenosi nas na stronę koszyka.
+2. Potwierdź, że w punkcie numer 3, podwójny klik na prostokącie zmieni jego kolor na #f55d7a (do konwersji z hex na rgba możesz użyć tego narzędzia).
+3. Potwierdź, że w punkcie numer 5, po wprowadzeniu i zatwierdzeniu tekstu poniżej przycisku „Zatwierdź” zostanie wyświetlona informacja „Wprowadzony tekst: ” plus Twój tekst.
+4. Potwierdź, że w punkcie numer 6, zaznaczanie kwadratów z liczbami ze wciśniętym przyciskiem CTRL nie powoduje odznaczania już zaznaczonych (czyli jeżeli przytrzymamy CTRL i wybierzemy 1, 5 i 7 to wszystkie trzy kafelki będą zaznaczone).
+*/
 
 public class Gesty_zadanie1 {
 
