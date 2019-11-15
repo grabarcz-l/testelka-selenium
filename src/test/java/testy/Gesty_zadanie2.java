@@ -22,7 +22,7 @@ public class Gesty_zadanie2 {
 
     @BeforeEach
     public void LaunchSettings() {
-        System.setProperty("webdiver.chrome.driver", "src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
         actions = new Actions(driver);
@@ -35,6 +35,32 @@ public class Gesty_zadanie2 {
     public void Exit() {
         driver.close();
         driver.quit();
+    }
+
+    @Test
+    public void offsetExample() {
+        driver.navigate().to("https://marcojakob.github.io/dart-dnd/detection_only/");
+        WebElement draggable = driver.findElement(By.cssSelector(".draggable"));
+        actions.dragAndDropBy(draggable, 20, 20).build().perform();
+        actions.clickAndHold(draggable).moveByOffset(20,20).release().build().perform();
+        actions.moveToElement(draggable).clickAndHold().moveByOffset(20,20).release().build().perform();
+    }
+
+    @Test
+    public void toElementExample() {
+        driver.navigate().to("http://marcojakob.github.io/dart-dnd/nested_dropzones/");
+        WebElement draggable = driver.findElement(By.cssSelector(".draggable"));
+        WebElement dropElement = driver.findElement(By.cssSelector(".dropzone-inner"));
+        WebElement dragElement = driver.findElement(By.cssSelector(".dropzone-outer"));
+        //actions.dragAndDrop(draggable,dropElement).build().perform();
+        //actions.clickAndHold(draggable).moveToElement(dropElement).release().build().perform();
+        //actions.clickAndHold(dragElement).release(dropElement).build().perform();
+        actions.clickAndHold(draggable).moveToElement(dropElement,2,2).release().build().perform();
+    }
+
+    @Test
+    public void test1() {
+        driver.navigate().to("https://fakestore.testelka.pl/actions");
     }
 
 }

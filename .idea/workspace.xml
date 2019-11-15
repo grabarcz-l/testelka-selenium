@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="672e0231-7e06-4393-9f18-9b13c1982af1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/testelka-selenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testy/Gesty_zadanie1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testy/Gesty_zadanie1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testy/Java_script.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testy/Java_script.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testy/Listy_zadanie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testy/Listy_zadanie.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="33" selection-start-line="33" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="354">
+              <caret line="73" column="74" selection-start-line="73" selection-start-column="74" selection-end-line="73" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,10 +48,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="336">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2390#2391#0" expanded="true" />
+                <element signature="e#2467#2468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,10 +117,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="91" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
+    <option name="x" value="1497" />
+    <option name="y" value="223" />
+    <option name="width" value="1936" />
+    <option name="height" value="882" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,41 +128,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="testelka-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testelka-selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="kurs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testelka-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testelka-selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="kurs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testelka-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testelka-selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="kurs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testelka-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testelka-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="kurs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testelka-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testelka-selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="kurs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,22 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Gesty_zadanie1.test3 (1)">
-    <configuration name="Gesty_zadanie1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kurs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testy" />
-      <option name="MAIN_CLASS_NAME" value="testy.Gesty_zadanie1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Gesty_zadanie2.test1">
     <configuration name="Gesty_zadanie1.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testelka-selenium" />
       <extension name="coverage">
@@ -230,7 +235,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gesty_zadanie1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Gesty_zadanie2.offsetExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kurs" />
       <extension name="coverage">
         <pattern>
@@ -239,14 +244,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testy" />
-      <option name="MAIN_CLASS_NAME" value="testy.Gesty_zadanie1" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="testy.Gesty_zadanie2" />
+      <option name="METHOD_NAME" value="offsetExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gesty_zadanie1.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Gesty_zadanie2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kurs" />
       <extension name="coverage">
         <pattern>
@@ -255,8 +260,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testy" />
-      <option name="MAIN_CLASS_NAME" value="testy.Gesty_zadanie1" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="MAIN_CLASS_NAME" value="testy.Gesty_zadanie2" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gesty_zadanie2.toElementExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kurs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testy" />
+      <option name="MAIN_CLASS_NAME" value="testy.Gesty_zadanie2" />
+      <option name="METHOD_NAME" value="toElementExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -264,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Gesty_zadanie2.test1" />
+        <item itemvalue="JUnit.Gesty_zadanie2.toElementExample" />
+        <item itemvalue="JUnit.Gesty_zadanie2.offsetExample" />
         <item itemvalue="JUnit.Gesty_zadanie1.test3 (1)" />
         <item itemvalue="JUnit.Gesty_zadanie1.test2 (1)" />
-        <item itemvalue="JUnit.Gesty_zadanie1" />
-        <item itemvalue="JUnit.Gesty_zadanie1.test4" />
-        <item itemvalue="JUnit.Gesty_zadanie1.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -294,42 +315,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Gesty_zadanie1_test4 - 2019.11.06 at 22h 00m 39s.xml">
-      <configuration name="Gesty_zadanie1.test4" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_toElementExample - 2019.11.15 at 15h 14m 07s.xml">
+      <configuration name="Gesty_zadanie2.toElementExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1_test4 - 2019.11.06 at 22h 07m 53s.xml">
-      <configuration name="Gesty_zadanie1.test4" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_offsetExample - 2019.11.15 at 15h 15m 02s.xml">
+      <configuration name="Gesty_zadanie2.offsetExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1_test4 - 2019.11.06 at 22h 08m 13s.xml">
-      <configuration name="Gesty_zadanie1.test4" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_offsetExample - 2019.11.15 at 15h 15m 15s.xml">
+      <configuration name="Gesty_zadanie2.offsetExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1_test4 - 2019.11.06 at 22h 36m 38s.xml">
-      <configuration name="Gesty_zadanie1.test4" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_toElementExample - 2019.11.15 at 15h 15m 20s.xml">
+      <configuration name="Gesty_zadanie2.toElementExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1 - 2019.11.07 at 15h 25m 37s.xml">
-      <configuration name="Gesty_zadanie1" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_toElementExample - 2019.11.15 at 15h 15m 56s.xml">
+      <configuration name="Gesty_zadanie2.toElementExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1_test3_(1) - 2019.11.11 at 13h 25m 42s.xml">
-      <configuration name="Gesty_zadanie1.test3 (1)" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_toElementExample - 2019.11.15 at 15h 16m 17s.xml">
+      <configuration name="Gesty_zadanie2.toElementExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1_test2_(1) - 2019.11.11 at 13h 26m 36s.xml">
-      <configuration name="Gesty_zadanie1.test2 (1)" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_toElementExample - 2019.11.15 at 15h 18m 19s.xml">
+      <configuration name="Gesty_zadanie2.toElementExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1_test3_(1) - 2019.11.11 at 13h 27m 18s.xml">
-      <configuration name="Gesty_zadanie1.test3 (1)" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_toElementExample - 2019.11.15 at 15h 20m 59s.xml">
+      <configuration name="Gesty_zadanie2.toElementExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1_test2_(1) - 2019.11.12 at 17h 37m 32s.xml">
-      <configuration name="Gesty_zadanie1.test2 (1)" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_toElementExample - 2019.11.15 at 15h 21m 40s.xml">
+      <configuration name="Gesty_zadanie2.toElementExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Gesty_zadanie1_test3_(1) - 2019.11.12 at 17h 38m 55s.xml">
-      <configuration name="Gesty_zadanie1.test3 (1)" configurationId="JUnit" />
+    <history-entry file="Gesty_zadanie2_test1 - 2019.11.15 at 15h 25m 44s.xml">
+      <configuration name="Gesty_zadanie2.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187595" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15989584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,14 +359,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3267974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23386243" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32592592" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23386243" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32804233" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32804233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -462,6 +483,18 @@
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -484,7 +517,9 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/events/EventFiringWebDriver.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/WebDriver.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java" />
+    <entry file="file://C:/Program Files/RecordEdit/Avro/Source/Avro/src/net/sf/RecordEditor/Avro/re/display/AvroLayoutSelectionFromFile.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testy/Java_script.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -515,10 +550,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="512" selection-start-line="512" selection-end-line="512" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/interactions/Actions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="33" selection-start-line="33" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="354">
+          <caret line="73" column="74" selection-start-line="73" selection-start-column="74" selection-end-line="73" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -527,10 +576,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testy/Gesty_zadanie2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="336">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="e#2467#2468#0" expanded="true" />
           </folding>
         </state>
       </provider>
