@@ -82,8 +82,8 @@ Napisz poniższe testy. Skorzystaj z przykładu pierwszego (drag and drop) na st
     public void test2() {
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", draggable);
 //        actions.dragAndDropBy(draggable,218,93).release().build().perform();
-        actions.clickAndHold(draggable).moveByOffset(218,93).release().build().perform();
-//      actions.clickAndHold(draggable).moveToElement(droppable,149,149).release().build().perform();
+//        actions.clickAndHold(draggable).moveByOffset(218,93).release().build().perform();
+      actions.clickAndHold(draggable).moveToElement(droppable,74,74).release().build().perform();
         Assertions.assertEquals(expectedMessage, droppable.getText(), "Moved element isn't within pink Box !");
     }
 
